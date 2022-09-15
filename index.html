@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Venta de Tarjetas Panini - Qatar 2022</title>
+    <script src="https://kit.fontawesome.com/df59baf6b8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script defer src="stock.js"></script>
+    <script defer src="modal.js"></script>
+    <script defer src="app.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <h1 id="titulo" class="titulo">Tarjetas Panini - Qatar 2022 🏆</h1>
+        <button id="boton-carrito"><i class="fas fa-shopping-cart"></i><span id="contadorCarrito">0</span></button>
+
+        <button id="boton-contacto"><i class="fa fa-address-book-o"></i><span id="contacto"></span></button>
+      
+    </header>
+
+    <main id="contenedor-productos">
+    </main>
+
+    <div class="modal-contenedor">
+        <div class="modal-carrito">
+            <h3>Resumen de la Orden de Compra: </h3>
+            <button id="carritoCerrar"><i class="fas fa-times-circle"></i></button>
+            <div id="carrito-contenedor">
+            </div>
+            <br><h3> Detalle :</h3> <br/>
+            <p class="precioProducto">Precio: $<span id="precioTotal">0</span></p>
+            <p class="precioProducto">Iva: $<span id="precioTotalIva">0</span></p>
+            <p class="precioProducto">Transporte: $<span id="preciotransporte">0</span></p>
+            <p class="precioProducto">Precio Final: $<span id="preciofinal">0</span></p>
+
+            <form action="" id="form">
+                <br><label for="NombreCompleto">Nombre Completo :</label><br/><input type="text"  id="CNombreCompleto">
+                <br><label for="Correo">Correo :</label><br/><input type="text"  id="CCorreo">
+                <br><label for="NumeroTarjeta">Numero de Tarjeta :</label><br/><input type="text"  id="CNumeroTarjeta"><br/>
+                <br><input type="submit" value="Confirmar Orden" class="boton-confirmar"><br/>
+            </form>
+
+            <br> <button id="vaciar-carrito" class="boton-agregar">Vaciar carrito</button><br/> 
+
+        </div>
+    </div>
+</body>
+</html>

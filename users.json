@@ -1,0 +1,28 @@
+[{
+    "username": "juan",
+    "firstName": "Juan",
+    "lastName": "Perez",
+    "gender": "Male",
+    "role": "Administrador de Proyectos",
+    "profileURL": "images/male.png",
+    "email": "juan.perez@gmail.com"
+},
+{
+    "username": "laura",
+    "firstName": "Laura",
+    "lastName": "Jimenez",
+    "gender": "Female",
+    "role": "Desarrollo de Software",
+    "profileURL": "images/female.png",
+    "email": "laura.jimenez@gmail.com"
+},
+{
+    "username": "mary",
+    "firstName": "Mary",
+    "lastName": "Smith",
+    "gender": "Female",
+    "role": "Manager",
+    "profileURL": "images/female.png",
+    "email": "mary.smith@gmail.com"
+}
+]
